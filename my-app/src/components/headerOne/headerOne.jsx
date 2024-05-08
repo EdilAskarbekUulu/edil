@@ -27,9 +27,9 @@ export default function HeaderOne(){
                     <div className="btnHeader">
                         <img className="photoBtn" src={photo2} alt="" />
                         <img className="photoBtn" src={photo3} alt="" />
-                        <img className="photoBtn" src={photo4} alt="" />
+                        <img className="photoBtn photoRemove" src={photo4} alt="" />
                         <img className="photoBtn" src={photo5} alt="" />
-                        <img className="photoBtn" src={photo6} alt="" />
+                        <img className="photoBtn photoRemove" src={photo6} alt="" />
                     </div>
                     <div className="btnBurger">
                         <img src={photo7} alt="" />

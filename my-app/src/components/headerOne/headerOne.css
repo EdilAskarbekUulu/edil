@@ -38,6 +38,8 @@
 }
 .photoBtn{
     margin-left: 10px;
+    width: 40px;
+    height: auto;
 }
 .btnBurger{
     position: fixed;
@@ -45,6 +47,8 @@
     top: 20px;
     display: none;
 }
+
+
 @media screen and (max-width: 980px){
     .btnBurger{
         display: block;
@@ -59,5 +63,10 @@
         position: fixed;
         left: 30px;
         top: 20px;
+    }
+}
+@media screen and (max-width: 680px){
+    .photoRemove{
+        display: none;
     }
 }
