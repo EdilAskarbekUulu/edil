@@ -1,0 +1,36 @@
+@import url(../reduce/reduce.css);
+
+
+.headerMain{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.headerTwo{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    gap: 20px;
+}
+.headerBoxOne{
+    display: flex;
+    align-items: center;
+}
+.headerBoxTwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerBoxTwo li{
+    margin-left: 20px;
+}
+.headerBoxThree{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.headerBoxThree li{
+}
