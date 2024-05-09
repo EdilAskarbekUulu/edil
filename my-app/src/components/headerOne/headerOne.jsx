@@ -21,19 +21,20 @@ export default function HeaderOne(){
     };
     return(
         <>
-        <header className="headerOne">
             <div className="headerWrap">
                 <div className="logoOne">
                     <a href="" className="giperSylcka">
                         <img src={photo1} alt="" />
-                        <ul className="ulNav">
-                            <li>Шведские стенки</li>
-                            <li>Уличные комплексы</li>
-                            <li>Турники</li>
-                            <li>Тяжелая атлетика</li>
-                            <li style={{color: 'red'}}>Каталог товаров</li>
-                        </ul>
+                    
+                    <ul className="ulNav">
+                        <li><a>Шведские стенки</a></li>
+                        <li><a>Уличные комплексы</a></li>
+                        <li><a>Турники</a></li>
+                        <li><a>Тяжелая атлетика</a></li>
+                        <li style={{color: 'red'}}><a>Каталог товаров</a></li>
+                    </ul>
                     </a>
+                    
                     <div className="btnHeader">
                         <img className="photoBtn" src={photo2} alt="" />
                         <img className="photoBtn" src={photo3} alt="" />
@@ -52,7 +53,6 @@ export default function HeaderOne(){
                     </div>
                 </div>
             </div>
-        </header>
         </>
     )
 }

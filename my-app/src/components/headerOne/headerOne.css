@@ -5,43 +5,30 @@
     margin: 0 auto;
 }
 .logoOne{
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    justify-content: center;
     margin-top: 20px;
-    width: 100%;
     gap: 20px;
+    padding: 10px;
 }
 .giperSylcka{
     display: flex;
-    flex-basis: auto;
-}
-.giperSylcka img{
-    left: 20px;
-    top: 20px;
-}
-.giperSylcka ul {
-    display: flex;
+    gap: 30px;
     align-items: center;
-    margin-left: 20px;
 }
-.giperSylcka ul li{
+.ulNav{
+    display: flex;
+    gap: 20px;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    margin-left: 10px;
-    margin-right: 10px;
-    white-space: nowrap;
+    font-weight: 400;
 }
-.btnHeader{
+
+.btnHeader {
     display: flex;
-    justify-content: space-between;
-}
-.photoBtn{
-    margin-left: 10px;
-    width: 40px;
-    height: auto;
+    gap: 20px;
+    right: -100px;
 }
 .btnBurger{
     position: fixed;
@@ -78,7 +65,7 @@
     right: 30px;
     top: 20px;
 }
-.burger{
+.Burger{
     display: none;
 }
 
