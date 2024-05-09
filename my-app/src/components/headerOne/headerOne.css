@@ -47,6 +47,39 @@
     top: 20px;
     display: none;
 }
+.burgerOne{
+    background-color: rgb(51, 51, 235, 0.6);
+    position: absolute;
+    top: 0;
+    left: 30%;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+.burgerOne{
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+.burgerNav{
+    margin-top: 100px;
+    text-align: center;
+}
+.burgerNav li{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+.btnRemove{
+    position: fixed;
+    right: 30px;
+    top: 20px;
+}
+.Burger{
+    display: none;
+}
+
 
 
 @media screen and (max-width: 980px){
@@ -63,6 +96,9 @@
         position: fixed;
         left: 30px;
         top: 20px;
+    }
+    .Burger{
+        display: block;
     }
 }
 @media screen and (max-width: 680px){

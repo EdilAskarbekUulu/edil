@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './headerOne.css'
 import photo1 from "./img/logoOne.png"
 import photo2 from "./img/lupa.png"
@@ -7,8 +7,18 @@ import photo4 from "./img/empty.png"
 import photo5 from "./img/phone.png"
 import photo6 from "./img/shop.png"
 import photo7 from "./img/btnBurger.png"
+import BurgerHeaderOne from "./burgerHeaderOne";
 
 export default function HeaderOne(){
+    const [showBurgerHeaderOne, setShowBurgerHeaderOne] = useState(false);
+
+    const handleShowBurgerHeaderOne = () => {
+        setShowBurgerHeaderOne(true);
+    };
+
+    const handleHideBurgerHeaderOne = () => {
+        setShowBurgerHeaderOne(false);
+    };
     return(
         <>
         <header className="headerOne">
@@ -31,8 +41,14 @@ export default function HeaderOne(){
                         <img className="photoBtn" src={photo5} alt="" />
                         <img className="photoBtn photoRemove" src={photo6} alt="" />
                     </div>
-                    <div className="btnBurger">
-                        <img src={photo7} alt="" />
+                    <div className="Burger">
+                        {showBurgerHeaderOne ? (
+                            <BurgerHeaderOne onHide={handleHideBurgerHeaderOne}/>
+                        ) : (
+                            <div className="btnBurger">
+                                <img className="btn_burger" src={photo7} onClick={handleShowBurgerHeaderOne} />
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
