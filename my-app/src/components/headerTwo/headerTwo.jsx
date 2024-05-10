@@ -7,8 +7,20 @@ import photo04 from "./img/lupa.png"
 import photo05 from "./img/love.png"
 import photo06 from "./img/empty.png"
 import photo07 from "./img/Vector.png"
+import { useState } from "react";
+import photo08 from "./img/btnBurger.png"
+import BurgerTwo from "./headerTwoBurger";
 
 export default function HeaderTwo(){
+    const[burgerHeaderTwo, setBurgerHeaderTwo]=useState(false)
+
+    function burgerTwo(){
+        setBurgerHeaderTwo(true)
+    }
+    function budgerText(){
+        setBurgerHeaderTwo(false)
+    }
+
     return(
             <div className="headerMain">
                 <div className="headerTwo">
@@ -34,8 +46,12 @@ export default function HeaderTwo(){
                         <img src={photo03} alt="" />
                     </div>
                     <div className="headerBlockTwo">
-                        <img src={photo04} alt="" />
-                        <input type="text" />
+                        <div className="inputHeader">
+                            <img src={photo04} alt="" />
+                            <input type="text" placeholder="Поиск по сайту" />
+                        </div>
+                    </div>
+                    <div className="headerBlockThree">
                         <img src={photo05} alt="" />
                         <img src={photo06} alt="" />
                         <div className="shop">
@@ -47,6 +63,13 @@ export default function HeaderTwo(){
                         </div>
                     </div>
                 </div>
+                {burgerHeaderTwo ? (
+                    <BurgerTwo burger={budgerText}/>
+                ):(
+                    <div className="burgerBtnTwo">
+                        <img src={photo08} className="burgerTwo" onClick={burgerTwo}/>
+                    </div>
+                )}
             </div>
     )
 }

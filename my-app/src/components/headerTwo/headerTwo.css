@@ -29,3 +29,116 @@
     align-items: center;
     gap: 20px;
 }
+.headerLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 1%;
+}
+.headerBlockTwo{
+    display: flex;
+    width: 44%;
+    margin-left: 80px;
+}
+.inputHeader{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    border: 1px solid blue ;
+    border-radius: 10px;
+    gap: 20px;
+}
+.inputHeader input{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+.inputHeader img{
+    margin-left: 10px;
+}
+.headerBlockThree{
+    display: flex;
+    gap: 5%;
+}
+.shop{
+    width: 146px;
+    height: 46px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding-left: 10px;
+}
+.shop h2{
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(110, 114, 132, 1);
+    font-family: "Montserrat", sans-serif;
+}
+.shop p{
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(163, 166, 178, 1);
+    font-family: "Montserrat", sans-serif;
+}
+.burgerTwo{
+    display: none;
+}
+.burgerBtnTwo{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top: -45px;
+}
+.oneBurger{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 220px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 30px 50px 0;
+    z-index: 100;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.burgerremoveTwo{
+    position: relative;
+    float: right;
+    margin-right: -30px;
+    margin-top: -75px;
+}
+.burgerText{
+    margin-bottom: 20px;
+}
+.burgerText li{
+    padding-top: 20px;
+}
+
+@media(max-width: 950px) {
+    .burgerTwo{
+        display: block;
+        
+    }
+    .headerBlockThree{
+        display: none;
+    }
+    .headerTwo{
+        display: none;
+    }
+    .headerLogo{
+        padding: 0 10px 0;
+        height: 222px;
+        height: 53px;
+    }
+    .inputHeader{
+        margin-right: 60px;
+        height: 35px;
+    }
+}

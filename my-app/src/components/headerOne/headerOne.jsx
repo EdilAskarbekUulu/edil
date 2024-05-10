@@ -24,7 +24,7 @@ export default function HeaderOne(){
             <div className="headerWrap">
                 <div className="logoOne">
                     <a href="" className="giperSylcka">
-                        <img src={photo1} alt="" />
+                        <img src={photo1} alt="" className="headerBurger" />
                     
                     <ul className="ulNav">
                         <li><a>Шведские стенки</a></li>
