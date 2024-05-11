@@ -2,10 +2,17 @@
     position: absolute;
     color: rgb(255, 255, 255);
     background-color: black;
-    margin-top: 770px;
     padding: 10px 30px 0;
-    z-index: 100;
+    z-index: 770;
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
     line-height: 34px;
+    margin-top: 600px;
+}
+.photoCat{
+   float: right;
+   margin-top: 10px;
+}
+.catologAdd ul{
+    width: 230px;
 }
