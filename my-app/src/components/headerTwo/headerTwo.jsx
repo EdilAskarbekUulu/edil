@@ -55,21 +55,25 @@ export default function HeaderTwo(){
                         <img src={photo05} alt="" />
                         <img src={photo06} alt="" />
                         <div className="shop">
-                            <img src={photo07} alt="" />
-                            <span>
-                                <h2>Корзина (0)</h2>
-                                <p>Нет товаров</p>
-                            </span>
+                            <div className="shopTwo">
+                                <img src={photo07} alt="" />
+                                <span>
+                                    <h2>Корзина (0)</h2>
+                                    <p>Нет товаров</p>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                {burgerHeaderTwo ? (
-                    <BurgerTwo burger={budgerText}/>
-                ):(
-                    <div className="burgerBtnTwo">
-                        <img src={photo08} className="burgerTwo" onClick={burgerTwo}/>
-                    </div>
-                )}
+                <div className="burgerMain">
+                    {burgerHeaderTwo ? (
+                        <BurgerTwo burger={budgerText}/>
+                    ):(
+                        <div className="burgerBtnTwo">
+                            <img src={photo08} className="burgerTwo" onClick={burgerTwo}/>
+                        </div>
+                    )}
+                </div>
             </div>
     )
 }

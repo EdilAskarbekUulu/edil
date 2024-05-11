@@ -18,12 +18,15 @@
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 5%;
 }
 
 .btnHeader {
     display: flex;
-    gap: 20px;
-    right: -100px;
+    gap: 5%;
+    margin-right: 45px;
 }
 .btnBurger{
     position: relative;
@@ -63,50 +66,17 @@
 .Burger{
     display: none;
 }
-
-@media(max-width: 1092px) {
-    .headerWrap{
-        max-width: 1050px;
-    }
-    .logoOne{
-        gap: 10px;
-    }
-    .giperSylcka{
-        gap: 10px;
-    }
-    .ulNav{
-        gap: 10px;
-    }
-    .btnHeader{
-        gap: 10px;
-    }
-}
-@media screen and (max-width: 982px){
-    .headerWrap{
-        max-width: 950px;
-    }
-    .logoOne{
-        gap: 0px;
-    }
-    .giperSylcka{
-        gap: 5px;
-    }
-    .ulNav{
-        gap: 10px;
-    }
-    .btnHeader{
-        gap: 10px;
-    }
-    .photoBtn{
-        width: 40px;
-        height: 40px;
-    }
+.oneBurger{
+    display: none;
 }
 
 
 
 @media screen and (max-width: 950px){
     .btnBurger{
+        display: block;
+    }
+    .oneBurger{
         display: block;
     }
     .ulNav{
