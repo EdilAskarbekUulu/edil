@@ -4,6 +4,10 @@
 	margin: 0px;
 	border: none;
 }
+body{
+	font-family: "Montserrat", sans-serif;
+	background: #F2F3F4;
+}
 
 *,
 *::before,
