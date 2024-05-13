@@ -15,7 +15,7 @@ const Company = () => {
         </p>
         <div className="company__icon">
           <p>Подробнее</p>
-          <img className="icon1" src={assets.icon1} />
+          <img className="icon1" src={ass} />
         </div>
       </div>
 
