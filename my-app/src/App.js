@@ -15,11 +15,11 @@ function App() {
       <HeaderTwo/>
       <Cotolog/>
       <Desires/>
-      {/* <Shvetcia/> */}
-      {/* <Company/>
+      <Shvetcia/>
+      <Company/>
       <Payment/>
       <Email/>
-      <Footer/> */}
+      <Footer/>
     </div>
   );
 }
