@@ -16,10 +16,10 @@ function App() {
       <Cotolog/>
       <Desires/>
       <Shvetcia/>
-      <Company/>
+      {/* <Company/>
       <Payment/>
       <Email/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }
