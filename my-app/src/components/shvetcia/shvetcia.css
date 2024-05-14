@@ -1,7 +1,9 @@
 .shvetsia{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     margin-top: 20px;
+    overflow: hidden;
 }
 .shvetciaMain{
     max-width: 1200px;
@@ -16,9 +18,24 @@
     line-height: 37.79px;
     color: rgba(54, 56, 63, 1);
 }
+#redText{
+    color: red;
+}
 .Gallery{
     width: 280px;
     height: 520px;
+    background: white;
+    padding: 25px 10px 10px;
+    border-radius: 12px;
+}
+.rubSom{
+    position: relative;
+    height: 50px;
+}
+.textRub{
+    position: absolute;
+    bottom: 0;
+    
 }
 .Gallery p{
     font-family: "Montserrat", sans-serif;
@@ -51,7 +68,7 @@
 }
 .shopGallery{
     float: right;
-    margin-right: 70px;
+    margin-right: 50px;
     width: 46px;
     height: 46px;
     border-radius: 12px;
@@ -59,8 +76,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -10px;
-    
+    margin-top: -40px; 
 }
 .shopImg{
     position: relative;
@@ -69,4 +85,17 @@
     position: absolute;
     margin-left: 20px;
     margin-top: -10px;
+}
+#backBtn{
+    position: absolute;
+    left: -70px;
+    top: 30%;
+}
+#nextBtn{
+    position: absolute;
+    right: -70px;
+    bottom: 60%;
+}
+.shvetsiaWrap{
+    position: relative;
 }
