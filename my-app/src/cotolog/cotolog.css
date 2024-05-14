@@ -35,3 +35,49 @@
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width: 1020px){
+    .cotologUl li:nth-child(4){
+        display: none;
+    }
+}
+@media(max-width: 925px){
+    .cotologUl li:nth-child(3){
+        display: none;
+    }
+}
+@media(max-width: 810px){
+    .cotologUl li:nth-child(2){
+        display: none;
+    }
+}
+@media(max-width: 810px){
+    .cotologUl li:nth-child(1){
+        display: none;
+    }
+    .cotologWrap p{
+        display: none;
+    }
+    .cotologWrap{
+        justify-content: center;
+    }
+    .cotologBtn{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: rgba(10, 78, 203, 1);
+        margin-left: -15%;
+        gap: 0;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17.07px;
+        letter-spacing: 0.3em;
+        text-align: center;
+    }
+    .catologAdd{
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+}

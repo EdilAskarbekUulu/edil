@@ -9,18 +9,19 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    gap: 20px;
+    gap: 2%;
     padding: 0 10px 0;
 }
 .ulNav{
     display: flex;
-    gap: 20px;
+    gap: 2%;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
     position: absolute;
     margin-top: -30px;
     margin-left: 5%;
+    white-space: nowrap;
 }
 
 .btnHeader {
@@ -70,6 +71,11 @@
     display: none;
 }
 
+@media (max-width: 990px){
+    .removetextOne{
+        display: none;
+    }
+}
 
 
 @media screen and (max-width: 950px){
@@ -89,8 +95,16 @@
         display: block;
     }
 }
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
     .photoRemove{
         display: none;
+    }
+    .btnHeader{
+        position: absolute;
+        right: 35px;
+    }
+    .btnHeader .photoBtn{
+        width: 40px;
+        height: 40px;
     }
 }
