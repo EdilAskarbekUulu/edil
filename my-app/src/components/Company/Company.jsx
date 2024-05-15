@@ -15,7 +15,7 @@ const Company = () => {
         </p>
         <div className="company__icon">
           <p>Подробнее</p>
-          <img className="icon1" src={ass} />
+          <img className="icon1" src={assets.icon1} />
         </div>
       </div>
 
@@ -51,7 +51,7 @@ const Company = () => {
       <div className="company__box">
         <div className="company__img">
           <div className="main__img">
-            <img src={assets.ph1} />
+            <img className="main__img__main" src={assets.ph1} />
             <div className="arrow right"><img className="img__right" src={assets.icon8}/></div>
             <div className="arrow left"><img className="img__left" src={assets.icon7}/></div>
           </div>

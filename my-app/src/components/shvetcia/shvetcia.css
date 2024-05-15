@@ -1,9 +1,20 @@
 .shvetsia{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.shvetciaMain{
     max-width: 1200px;
     margin: auto;
     padding: 0 10px 0;
-    display: flex;
-    justify-content: space-between;
+    margin-top: 50px;
+}
+.shvetciaMain h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37.79px;
+    color: rgba(54, 56, 63, 1);
 }
 .Gallery{
     width: 280px;
@@ -28,6 +39,15 @@
 }
 .galleryTop{
     margin-top: 30px;
+}
+.galleryTop h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    text-align: left;
+    color: rgba(163, 166, 178, 1);
+    text-decoration: line-through;
 }
 .shopGallery{
     float: right;

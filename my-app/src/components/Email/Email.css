@@ -59,3 +59,31 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 950px) {
+  .email__main {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+  }
+  .email__text p strong {
+    font-size: 22px;
+  }
+  .email__text p {
+    font-size: 15px;
+  }
+  .email__subscribe {
+    gap: 10px;
+  }
+  .email__block {
+    width: 243px;
+    height: 54px;
+  }
+  ::placeholder {
+    font-size: 12px;
+  }
+  .email__button {
+    width: 110px;
+    height: 54px; 
+    font-size: 12px;
+  }
+}

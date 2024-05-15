@@ -16,6 +16,10 @@ function App() {
       <Cotolog/>
       <Desires/>
       <Shvetcia/>
+      <Company/>
+      <Payment/>
+      <Email/>
+      <Footer/>
     </div>
   );
 }
