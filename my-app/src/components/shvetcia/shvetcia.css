@@ -99,6 +99,14 @@
     margin-right: 20px;
     margin-top: -350px;
 }
+.Gallery:hover{
+    box-shadow: 0 0 10px gray,
+                0 0 20px rgb(101, 100, 100);
+}
+.Gallery:hover .shopGallery {
+    background-color: rgb(43, 67, 205);
+}
+
 @media(max-width: 950px){
     #backBtn{
         display: none;
@@ -106,4 +114,6 @@
     #nextBtn{
         display: none;
     }
+    
+    
 }
