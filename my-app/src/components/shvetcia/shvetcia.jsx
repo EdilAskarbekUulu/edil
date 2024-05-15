@@ -81,14 +81,14 @@ export default function Shvetcia(){
         <div className="shvetciaMain">
             <h3>Шведские стенки</h3>
             <div className="shvetsiaWrap">
-                <img src={photo06} alt="" id="backBtn" onClick={rotateRight} />
+                {/* <img src={photo06} alt="" id="backBtn" onClick={rotateRight} /> */}
                 <div className="shvetsia"  ref={scrollContainerRef}>
                     <ShvetciaTwo photo={photo02} text="Шведская стенка P-19 (Цвет: Белый)" rub="14 980 ₽" redRub={null} />
                     <ShvetciaTwo photo={photo01} text="Шведская стенка P-3 (Цвет: Антик Серебро)" rub={<span id="redText">7 990 ₽</span>} redRub="17 320 ₽"  />
                     <ShvetciaTwo photo={photo03} text="Шведская стенка P-4 (Цвет: Светофор)" rub={<span id="redText">10 990 ₽</span>} redRub="17 320 ₽" />
                     <ShvetciaTwo photo={photo04} text="Шведская стенка P-19 (Цвет: Антик серебро)" rub="14 980 ₽" redRub={null} />
                 </div>
-                <img src={photo05} alt="" id="nextBtn" onClick={rotateLeft} />
+                {/* <img src={photo05} alt="" id="nextBtn" onClick={rotateLeft} /> */}
             </div>
         </div>
         </>
