@@ -9,8 +9,10 @@ export default function ShvetciaTwo( { photo, text, rub, redRub } ){
             <div className="img"><img src={photo} alt="" /></div>
             <p>{text}</p>
             <div className="galleryTop">
-                <h2>{redRub}</h2>
-                <span>{rub}</span>
+                <div className="rubSom">
+                    <h2>{redRub}</h2>
+                    <span className="textRub">{rub}</span>
+                </div>
                 <div className="shopGallery">
                     <img src={photo001} alt="" className="shopImg"/>
                     <img src={photo002} alt="" className="shopPl" />

@@ -29,7 +29,7 @@ export default function HeaderOne(){
                     <ul className="ulNav">
                         <li><a>Шведские стенки</a></li>
                         <li><a>Уличные комплексы</a></li>
-                        <li><a>Турники</a></li>
+                        <li className="removetextOne"><a>Турники</a></li>
                         <li><a>Тяжелая атлетика</a></li>
                         <li style={{color: 'red'}}><a>Каталог товаров</a></li>
                     </ul>

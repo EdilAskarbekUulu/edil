@@ -5,6 +5,7 @@
     padding: 10px 30px 0;
     z-index: 770;
     font-size: 15px;
+    width: 30%;
     font-family: "Montserrat", sans-serif;
     line-height: 34px;
     margin-top: 600px;
@@ -14,5 +15,5 @@
    margin-top: 10px;
 }
 .catologAdd ul{
-    width: 230px;
+    width: 100%;
 }

@@ -1,0 +1,74 @@
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #1d1e22;
+}
+.footer__main {
+  max-width: 1180px;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  list-style-type: none;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer__contacts li {
+  padding: 9px 0;
+}
+.footer__main h1 {
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: white;
+}
+.contact__address {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffc62f;
+}
+.contact__number {
+  font-weight: 600;
+  color: white;
+}
+.contact__email {
+  color: white;
+}
+.contact__social {
+  color: #a3a6b2;
+}
+.li {
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+.li li {
+  padding: 10px 0;
+}
+.footer__text {
+  margin-top: 57px;
+}
+.footer__useful {
+  margin-right: 30px;
+}
+.footers__emblem {
+  max-width: 1920px;
+  margin: 0 auto;
+  background: rgba(17, 17, 18, 1);
+  padding: 25px 0;
+}
+.emblem__main {
+  max-width: 1180px;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.emblem__main h3 {
+  color: #dedfe7;
+  font-size: 15px;
+  font-weight: 400;
+}
