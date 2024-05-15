@@ -11,9 +11,10 @@
   display: flex;
   align-items: start;
   justify-content: space-between;
-  padding: 50px 0;
+  width: 1180px;
+  /* height: 478px; */
+  padding: 120px 0;
 }
-
 .footer__contacts li {
   padding: 9px 0;
 }
@@ -22,6 +23,7 @@
   font-weight: 300;
   letter-spacing: 0.05em;
   color: white;
+  margin-bottom: 20px;
 }
 .contact__address {
   font-size: 15px;
@@ -48,7 +50,7 @@
   padding: 10px 0;
 }
 .footer__text {
-  margin-top: 57px;
+  margin-top: 53px;
 }
 .footer__useful {
   margin-right: 30px;
@@ -71,4 +73,26 @@
   color: #dedfe7;
   font-size: 15px;
   font-weight: 400;
+}
+@media screen and (max-width: 950px) {
+  .footer__main {
+    width: 90%;
+    margin: auto;
+  }
+  .emblem__main {
+    width: 90%;
+    margin: auto;
+  }
+  .footer__main h1 {
+    font-size: 20px;
+  }
+  .footer__main li {
+    font-size: 12px;
+  }
+  .footer__text {
+    margin-top: 46px;
+  }
+  .footer__main {
+    padding: 80px 0;
+  }
 }
