@@ -87,23 +87,3 @@
     margin-left: 20px;
     margin-top: -10px;
 }
-#backBtn{
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 150px;
-    left: 0;
-}
-#nextBtn{
-    position: absolute;
-    right: 0;
-    margin-right: 20px;
-    margin-top: -350px;
-}
-@media(max-width: 950px){
-    #backBtn{
-        display: none;
-    }
-    #nextBtn{
-        display: none;
-    }
-}
