@@ -10,7 +10,8 @@
     margin: 0 auto;
   }
   .section2-all span{
-    color: orange;
+    color: rgba(240, 71, 22, 1);
+
   }
   .section2-h1 {
     max-width: 1200px;
@@ -29,7 +30,15 @@
     height: 396px;
     background: rgba(255, 255, 255, 1);
     border-radius: 12px;
-    box-shadow: 10px 10px 10px;
+  }
+  .all-section2:hover{
+    width: 280px;
+    height: 396px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px 4px rgb(164, 165, 165);
+    transition: 1.0s;
+  
   }
   .section2-img {
       width: 240px;

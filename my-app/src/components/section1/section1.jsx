@@ -16,10 +16,10 @@ export default function Section1(){
                 <h1>Уличные спортивные комплексы</h1>
             </div>
             <div className="section1-all">
-                <Section1Data image={img1} text="УСК Богатырь Romana, качели гнездо Romana" newprice="27 590 P" icon={img5}/>
-                <Section1Data image={img2} text="Спортивный детский комплекс “Юниор-Плюс”..." price="18 500 P" newprice="15 990 P" icon={img5}/>
-                <Section1Data image={img3} text="Детский уличный спортивный комплекс «Юниор» (с сеткой)..." price="23 800 P" newprice="19 490 P" icon={img5}/>
-                <Section1Data image={img4} text="Уличный спортивный турник Романа" newprice="22 990 P" icon={img5}/>
+                <Section1Data image={img1} text="УСК Богатырь Romana, качели гнездо Romana" newprice="27 590 ₽" icon={img5}/>
+                <Section1Data image={img2} text="Спортивный детский комплекс “Юниор-Плюс”..."  price="18 500 ₽" newprice={<span id="newprice">15 990 ₽</span>} icon={img5}/>
+                <Section1Data image={img3} text="Детский уличный спортивный комплекс «Юниор» (с сеткой)..." price="23 800 ₽" newprice={<span id="newprice">19 990 ₽</span>} icon={img5}/>
+                <Section1Data image={img4} text="Уличный спортивный турник Романа" newprice="22 990 ₽" icon={img5}/>
             </div>
         </div>
         
