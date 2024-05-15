@@ -87,3 +87,10 @@
     margin-left: 20px;
     margin-top: -10px;
 }
+.Gallery:hover{
+    box-shadow: 0 0 10px gray,
+                0 0 20px rgb(101, 100, 100);
+}
+.Gallery:hover .shopGallery {
+    background-color: rgb(134, 135, 139);
+}
