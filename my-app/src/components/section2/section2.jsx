@@ -16,10 +16,10 @@ export default function Section2(){
                 <h1>Тяжелая атлетика</h1>
             </div>
             <div className="section2-all">
-                <Section2Data image={img1} text="Гантель разборная стальная (гриф + блины) 15 кг" newprice="1 920 P" icon={img5}/>
-                <Section2Data image={img2} text="Гантель разборная (гриф + блины) 24,1 кг" price="6 200 P" newprice="4 260 P" icon={img5}/>
-                <Section2Data image={img3} text="Гантель разборная (гриф + блины) 26,6 кг" price="5 500 P" newprice="4 260 P" icon={img5}/>
-                <Section2Data image={img4} text="Гиря «Горилла» 16,0 кг" newprice="5 990 P" icon={img5}/>
+                <Section2Data image={img1} text="Гантель разборная стальная (гриф + блины) 15 кг" newprice="1 920 ₽" icon={img5}/>
+                <Section2Data image={img2} text="Гантель разборная (гриф + блины) 24,1 кг" price="6 200 ₽" newprice={<span id="newprice">4 260 ₽</span>}  icon={img5}/>
+                <Section2Data image={img3} text="Гантель разборная (гриф + блины) 26,6 кг" price="5 500 ₽" newprice={<span id="newprice">4 260 ₽</span>} icon={img5}/>
+                <Section2Data image={img4} text="Гиря «Горилла» 16,0 кг" newprice="5 990 ₽" icon={img5}/>
             </div>
         </div>
         

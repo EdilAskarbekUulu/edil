@@ -27,7 +27,16 @@
     height: 230px;
     background: rgba(255, 255, 255, 1);
     border-radius: 12px;
-    box-shadow: 10px 10px 10px;
+  }
+  .all-section3:hover{
+    width: 280px;
+    height: 230px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px 4px rgb(164, 165, 165);
+    transition: 1.0s;
+    color: rgba(10, 78, 203, 1);
+  
   }
   .section3-img {
       width: 111px;
